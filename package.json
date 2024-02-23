@@ -10,22 +10,36 @@
     "start": "next start"
   },
   "dependencies": {
+    "@radix-ui/react-checkbox": "^1.0.4",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-toast": "^1.1.5",
     "@t3-oss/env-nextjs": "^0.7.1",
     "@tanstack/react-query": "^4.36.1",
     "@trpc/client": "^10.43.6",
     "@trpc/next": "^10.43.6",
     "@trpc/react-query": "^10.43.6",
     "@trpc/server": "^10.43.6",
+    "axios": "^1.6.7",
+    "class-variance-authority": "^0.7.0",
+    "eventsource-parser": "^1.1.2",
+    "gpt-tokenizer": "^2.1.2",
+    "jotai": "^2.6.5",
+    "lucide-react": "^0.338.0",
     "next": "^14.0.4",
+    "openai": "^4.28.0",
+    "openapi": "^1.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "superjson": "^2.2.1",
+    "tailwind-merge": "^2.2.1",
     "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/eslint": "^8.44.7",
-    "@types/node": "^18.17.0",
-    "@types/react": "^18.2.37",
+    "@types/node": "^18.19.18",
+    "@types/react": "^18.2.58",
     "@types/react-dom": "^18.2.15",
     "@typescript-eslint/eslint-plugin": "^6.11.0",
     "@typescript-eslint/parser": "^6.11.0",
@@ -37,7 +51,7 @@
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
     "tailwindcss": "^3.3.5",
-    "typescript": "^5.1.6"
+    "typescript": "^5.3.3"
   },
   "ct3aMetadata": {
     "initVersion": "7.26.0"
